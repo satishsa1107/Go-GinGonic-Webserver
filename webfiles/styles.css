@@ -1,0 +1,51 @@
+.mainpage_body {
+    background-color: #d0e4fe;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c5/Moraine_Lake_17092005.jpg");
+}
+.mainpage_h1 {
+    color: blue;
+    text-align: center;
+    font-size: 60px;
+}
+
+.mainpage_h3 {
+    color: green;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mainpage_p {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.mainpage_links li {
+    display: inline;
+    font-size: 20px;
+}
+
+.resumepage_body {
+    background-image: url("http://clipartfreefor.com/cliparts/engineer-clipart/cliparti1_engineer-clipart_09.jpg");
+}
+
+.resumepage_body h3 {
+    color: green;
+    font-size: 30px;
+}
+
+.resumepage_body li {
+    display: block;
+    color: red;
+    font-size: 20px;
+}
+
+.projectpage_body {
+    font-size: 30px;
+    text-align: center;
+    color:red;
+}
+
+
+
