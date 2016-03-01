@@ -1,4 +1,4 @@
-FROM satishsa1107/gin_webserver/master:latest
+FROM satishsa1107/gin_webserver
 
 CMD go build server.go
 CMD go run server.go
