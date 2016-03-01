@@ -1,7 +1,9 @@
-.mainpage_body {
-    background-color: #d0e4fe;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/c5/Moraine_Lake_17092005.jpg");
+.mainpage_body::after {
+    opacity: 0.5;
+    background-image: url("https://flic.kr/p/CAdSCE");
 }
+
+
 .mainpage_h1 {
     color: blue;
     text-align: center;
@@ -20,10 +22,18 @@
     font-size: 20px;
 }
 
+.mainpage_links {
+    color: red;
+    text-align: center;
+    width: 100px;
+    margin: left;
+}
 
-.mainpage_links li {
-    display: inline;
-    font-size: 20px;
+.mainpage_links li{
+    display: block;
+    width: 100px;
+    height: 100px;
+    color: red;
 }
 
 .resumepage_body {
