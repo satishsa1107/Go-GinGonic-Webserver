@@ -1,4 +1,4 @@
-FROM satishsa1107/gin_webserver:master
+FROM docker.io/satishsa1107/gin_webserver:master
 
 CMD go build server.go
 CMD go run server.go
