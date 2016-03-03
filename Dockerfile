@@ -1,4 +1,7 @@
-FROM docker.io/satishsa1107/gin_webserver
+FROM golang
+
+RUN go get github.com/gin-gonic/gin
+RUN go get github.com/gin-gonic/contrib/static
 
 CMD go build server.go
 CMD go run server.go
