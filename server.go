@@ -4,9 +4,6 @@ import (
     "fmt"
     "github.com/gin-gonic/gin"
     "github.com/gin-gonic/contrib/static"
-    "log"
-    "time"
-    "strconv"
     "net/http"
 )
 
