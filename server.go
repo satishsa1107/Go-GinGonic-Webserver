@@ -12,9 +12,9 @@ func main(){
 
     router := gin.Default()
 
-    router.Use(static.Serve("/", static.LocalFile(".", false)))
+    router.Use(static.Serve("/", static.LocalFile("webfiles", false)))
 
-    router.LoadHTMLGlob("./*.html")
+    router.LoadHTMLGlob("webfiles/*.html")
 
     // set up a redirect for /
     router.GET("/", func (c *gin.Context) {
